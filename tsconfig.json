@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // From jsconfig.json
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"] // Combining paths from both configs
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
